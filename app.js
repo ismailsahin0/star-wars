@@ -21,6 +21,8 @@ app.use((req,res,next)=>{
    res.render('calisma');
 });
 */
+
+//ÜZERİNİ YORUMA ALDIM ÇÜNKÜ HEPSİNE BAKIMDA YAZIYOR
 app.get("/",(req,res) => {
     res.render('arama');
 });
